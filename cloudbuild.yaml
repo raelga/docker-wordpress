@@ -8,3 +8,6 @@ steps:
     - '-f'
     - 'Dockerfile.onbuild'
     - '.'
+
+images:
+  - 'gcr.io/raelga/wordpress:5.1'
