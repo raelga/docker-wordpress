@@ -5,9 +5,11 @@ steps:
     - '--build-arg="WP_TAG=5.1"'
     - '-t'
     - 'gcr.io/raelga/wordpress:5.1'
+    - '-t'
+    - 'gcr.io/raelga/wordpress:latest'
     - '-f'
     - 'Dockerfile.onbuild'
     - '.'
-
 images:
   - 'gcr.io/raelga/wordpress:5.1'
+  - 'gcr.io/raelga/wordpress:latest'
