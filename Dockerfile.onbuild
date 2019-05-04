@@ -12,8 +12,8 @@ ONBUILD COPY --chown=www-data wp-content /var/www/html/wp-content
 
 ONBUILD ADD plugins.list /var/www/html/wp-content/plugins/plugins.list
 
-ONBUILD RUN while read plugin || [ -n "$plugin" ]; do \
-    wget -q -O - https://github.com/${plugin/\:*/}/archive/${plugin/*:/}.tar.gz \
+ONBUILD RUN while read plugin || [ -n "${plugin}" ]; do \
+    curl -#qL https://github.com/$(echo ${plugin} | cut -f1 -d:)/archive/$(echo ${plugin} | cut -f2 -d:).tar.gz \
     | tar zx -C /var/www/html/wp-content/plugins \
     && echo "Plugin ${plugin} downloaded."; \
     done < /var/www/html/wp-content/plugins/plugins.list; \
