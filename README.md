@@ -1,5 +1,8 @@
 # docker-wordpress
-Dockerfile for Wordpress with some plugin/theme management
+
+Dockerfile for Wordpress with some plugin/theme management.
+
+Available at [gcr.io/raelga/wordpress:latest](gcr.io/raelga/wordpress)
 
 ## Dockerfile
 
