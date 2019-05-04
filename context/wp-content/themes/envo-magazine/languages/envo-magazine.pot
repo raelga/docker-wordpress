@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Envo Magazine\n"
+"POT-Creation-Date: 2018-04-11 16:44+0200\n"
+"PO-Revision-Date: 2015-12-08 20:48+0100\n"
+"Last-Translator: Envo Magazine <info@envothemes.com>\n"
+"Language-Team: Envo Magazine <info@envothemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/kirki\n"
+
+#: 404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:15
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-single.php:14 content.php:13
+#: includes/widgets/featured-column-news.php:115
+#: includes/widgets/mix-column-news.php:115
+#: includes/widgets/mix-column-news.php:144
+#: includes/widgets/one-column-news.php:106
+#: includes/widgets/split-images-news.php:106
+#: includes/widgets/split-images-news.php:126
+#: includes/widgets/three-column-news.php:106
+#: includes/widgets/two-column-news.php:114
+#: includes/widgets/two-column-news.php:232
+msgid "By"
+msgstr ""
+
+#: functions.php:20
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:21
+msgid "Top Menu left"
+msgstr ""
+
+#: functions.php:22
+msgid "Top Menu right"
+msgstr ""
+
+#: functions.php:72
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:149
+msgid "Homepage Full Width Section #1"
+msgstr ""
+
+#: functions.php:159
+msgid "Homepage Row #1 - 2/3 Section"
+msgstr ""
+
+#: functions.php:169
+msgid "Homepage Row #1 - 1/3 Section"
+msgstr ""
+
+#: functions.php:179
+msgid "Homepage Full Width Section #2"
+msgstr ""
+
+#: functions.php:189
+msgid "Homepage Row #2 - 2/3 Section"
+msgstr ""
+
+#: functions.php:199
+msgid "Homepage Row #2 - 1/3 Section"
+msgstr ""
+
+#: functions.php:209
+msgid "Homepage Full Width Section #3"
+msgstr ""
+
+#: functions.php:219
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:229
+msgid "Header Section"
+msgstr ""
+
+#: functions.php:239
+msgid "Footer Section"
+msgstr ""
+
+#: functions.php:283
+msgid "Category"
+msgstr ""
+
+#: functions.php:287
+msgid "Tags"
+msgstr ""
+
+#: functions.php:309
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:309
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:311
+#, php-format
+msgid "Theme: %1$s"
+msgstr ""
+
+#: functions.php:361
+msgid "Off"
+msgstr ""
+
+#: functions.php:363
+msgid "Comment on "
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:19
+msgid "Widget to display big post on left side, and small posts on the right"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:22
+msgid "Envo Magazine: Featured News column"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:186
+#: includes/widgets/mix-column-news.php:195
+#: includes/widgets/one-column-news.php:154
+#: includes/widgets/three-column-news.php:146
+#: includes/widgets/two-column-news.php:302 lib/demo-preview.php:108
+msgid "View All"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:193
+#: includes/widgets/mix-column-news.php:203
+#: includes/widgets/one-column-news.php:161
+#: includes/widgets/popular-posts.php:106
+#: includes/widgets/recent-posts.php:104
+#: includes/widgets/split-images-news.php:172
+#: includes/widgets/three-column-news.php:152
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:199
+#: includes/widgets/mix-column-news.php:209
+#: includes/widgets/one-column-news.php:167
+#: includes/widgets/split-images-news.php:178
+#: includes/widgets/three-column-news.php:158
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:209
+#: includes/widgets/mix-column-news.php:219
+#: includes/widgets/one-column-news.php:177
+#: includes/widgets/split-images-news.php:188
+#: includes/widgets/three-column-news.php:168
+#: includes/widgets/two-column-news.php:323
+#: includes/widgets/two-column-news.php:344
+msgid "All Categories"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:216
+#: includes/widgets/mix-column-news.php:226
+#: includes/widgets/one-column-news.php:184
+#: includes/widgets/split-images-news.php:195
+#: includes/widgets/three-column-news.php:175
+#: includes/widgets/two-column-news.php:351
+msgid "View all text:"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:219
+#: includes/widgets/mix-column-news.php:229
+#: includes/widgets/one-column-news.php:187
+#: includes/widgets/split-images-news.php:198
+#: includes/widgets/three-column-news.php:178
+#: includes/widgets/two-column-news.php:354
+msgid "To hide it, leave this field empty."
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:225
+#: includes/widgets/one-column-news.php:192
+#: includes/widgets/two-column-news.php:360
+msgid "Excerpt length:"
+msgstr ""
+
+#: includes/widgets/featured-column-news.php:231
+#: includes/widgets/mix-column-news.php:248
+#: includes/widgets/one-column-news.php:197
+#: includes/widgets/popular-posts.php:112
+#: includes/widgets/recent-posts.php:110
+#: includes/widgets/split-images-news.php:203
+#: includes/widgets/three-column-news.php:183
+#: includes/widgets/two-column-news.php:366
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/mix-column-news.php:19
+msgid ""
+"Widget to display news in mix columns layout. First post in full column and "
+"other in two columns"
+msgstr ""
+
+#: includes/widgets/mix-column-news.php:22
+msgid "Envo Magazine: Mix Column News"
+msgstr ""
+
+#: includes/widgets/mix-column-news.php:235
+msgid "First excerpt length:"
+msgstr ""
+
+#: includes/widgets/mix-column-news.php:242
+msgid "Small posts excerpt length:"
+msgstr ""
+
+#: includes/widgets/one-column-news.php:17
+msgid "Widget to display news in one column layout."
+msgstr ""
+
+#: includes/widgets/one-column-news.php:20
+msgid "Envo Magazine: One column news"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:19
+msgid ""
+"Widget to display popular posts with thumbnail and date. Recommended to be "
+"used in sidebar or footer."
+msgstr ""
+
+#: includes/widgets/popular-posts.php:22
+msgid "Envo Magazine: Popular posts"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:101 lib/demo-preview.php:157
+msgid "Popular posts"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:19
+msgid ""
+"Widget to display recent posts with thumbnail and date. Recommended to be "
+"used in sidebar or footer."
+msgstr ""
+
+#: includes/widgets/recent-posts.php:22
+msgid "Envo Magazine: Recent posts"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:99 lib/demo-preview.php:74
+#: lib/demo-preview.php:140
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:17
+#: includes/widgets/three-column-news.php:17
+msgid "Widget to display news in a three-columns layout."
+msgstr ""
+
+#: includes/widgets/split-images-news.php:20
+msgid "Envo Magazine: Split Images News"
+msgstr ""
+
+#: includes/widgets/three-column-news.php:20
+msgid "Envo Magazine: Three-column news"
+msgstr ""
+
+#: includes/widgets/two-column-news.php:17
+msgid "Widget to display news in two columns."
+msgstr ""
+
+#: includes/widgets/two-column-news.php:20
+msgid "Envo Magazine: Two-columns news"
+msgstr ""
+
+#: includes/widgets/two-column-news.php:309
+msgid "First column title:"
+msgstr ""
+
+#: includes/widgets/two-column-news.php:313
+msgid "First column category:"
+msgstr ""
+
+#: includes/widgets/two-column-news.php:330
+msgid "Second column title:"
+msgstr ""
+
+#: includes/widgets/two-column-news.php:334
+msgid "Second column category:"
+msgstr ""
+
+#: lib/customizer/info.php:11
+msgid "Video Documentation & Demo"
+msgstr ""
+
+#: lib/customizer/info.php:25
+#, php-format
+msgid "You can use this theme to create a website like these %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:25
+msgid "demos"
+msgstr ""
+
+#: lib/customizer/info.php:28
+#, php-format
+msgid "For step-by-step videos and text tutorials, see %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:28
+msgid "documentation"
+msgstr ""
+
+#: lib/customizer/info.php:143 lib/dashboard.php:113
+msgid "PRO version"
+msgstr ""
+
+#: lib/customizer/info.php:145
+msgid "View PRO version"
+msgstr ""
+
+#: lib/dashboard.php:28
+msgid "Envo Magazine theme"
+msgstr ""
+
+#: lib/dashboard.php:30
+msgid "Envo Magazine dashboard"
+msgstr ""
+
+#: lib/dashboard.php:51 lib/dashboard.php:107
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: lib/dashboard.php:58
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: lib/dashboard.php:66
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: lib/dashboard.php:122
+msgid "Theme Customizer"
+msgstr ""
+
+#: lib/dashboard.php:126
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize"
+"\" to personalize your site."
+msgstr ""
+
+#: lib/dashboard.php:130
+msgid "Start customizing"
+msgstr ""
+
+#: lib/dashboard.php:134
+msgid "Theme documentation"
+msgstr ""
+
+#: lib/dashboard.php:138
+#, php-format
+msgid ""
+"Need help in setting up and configuring %s? Please take a look at our "
+"documentation page."
+msgstr ""
+
+#: lib/dashboard.php:145
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: lib/dashboard.php:151
+msgid "Having trouble? Need support?"
+msgstr ""
+
+#: lib/dashboard.php:153
+msgid "Contact us"
+msgstr ""
+
+#: lib/dashboard.php:168
+msgid "To get these awesome features, upgrade to Envo Magazine PRO!"
+msgstr ""
+
+#: lib/dashboard.php:171
+msgid "Unlimited colors"
+msgstr ""
+
+#: lib/dashboard.php:172
+msgid "600+ Google fonts"
+msgstr ""
+
+#: lib/dashboard.php:173
+msgid "New homepage widgets"
+msgstr ""
+
+#: lib/dashboard.php:174
+msgid "Advertising spaces"
+msgstr ""
+
+#: lib/dashboard.php:175
+msgid "Mega Menu support"
+msgstr ""
+
+#: lib/dashboard.php:176
+msgid "Footer credits editor"
+msgstr ""
+
+#: lib/dashboard.php:177
+msgid "And much more..."
+msgstr ""
+
+#: lib/dashboard.php:181
+msgid "Envo Magazine PRO"
+msgstr ""
+
+#: lib/demo-preview.php:75
+msgid "Search"
+msgstr ""
+
+#: lib/demo-preview.php:76
+msgid "Archives"
+msgstr ""
+
+#: lib/demo-preview.php:77
+msgid "Categories"
+msgstr ""
+
+#: lib/wp_bootstrap_navwalker.php:206
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr ""
+
+#: template-parts/template-part-topnav.php:7
+msgid "Toggle navigation"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr ""
+#~ "Vyberte stránku, která zobrazí podmínky používání pro registraci partnerů"
