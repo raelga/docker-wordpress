@@ -1,22 +1,20 @@
 ARG WP_TAG=5.1
 
-FROM bash:5.0 as wp-plugins
-
-ONBUILD ADD plugins.list /tmp/wp-plugins/plugins.list
-
-ONBUILD RUN while read plugin || [ -n "$plugin" ]; do \
-    wget -q -O - https://github.com/${plugin/\:*/}/archive/${plugin/*:/}.tar.gz \
-    | tar zx -C /tmp/wp-plugins \
-    && echo "Plugin ${plugin} downloaded."; \
-    done < /tmp/wp-plugins/plugins.list
-
 FROM wordpress:$WP_TAG
-
-ONBUILD COPY --chown=www-data wp-content /var/www/html/wp-content
-ONBUILD COPY --from=wp-plugins --chown=www-data /tmp/wp-plugins /var/www/html/wp-content/plugins/
 
 RUN { mv $PHP_INI_DIR/php.ini-production $PHP_INI_DIR/php.ini; \
 		echo 'opcache.memory_consumption=64'; \
 		echo 'opcache.max_accelerated_files=4000'; \
 		echo 'opcache.revalidate_freq=10'; \
 	} > /usr/local/etc/php/conf.d/opcache-recommended.ini
+
+ONBUILD COPY --chown=www-data wp-content /var/www/html/wp-content
+
+ONBUILD ADD plugins.list /var/www/html/wp-content/plugins/plugins.list
+
+ONBUILD RUN while read plugin || [ -n "$plugin" ]; do \
+    wget -q -O - https://github.com/${plugin/\:*/}/archive/${plugin/*:/}.tar.gz \
+    | tar zx -C /var/www/html/wp-content/plugins \
+    && echo "Plugin ${plugin} downloaded."; \
+    done < /var/www/html/wp-content/plugins/plugins.list; \
+    chown -R www-data /var/www/html/wp-content/plugins;
