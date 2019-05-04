@@ -2,7 +2,7 @@
 
 Dockerfile for Wordpress with some plugin/theme management.
 
-Available at [gcr.io/raelga/wordpress:latest](gcr.io/raelga/wordpress)
+Available at [gcr.io/raelga/wordpress:latest](https://gcr.io/raelga/wordpress)
 
 ## Dockerfile
 
